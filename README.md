@@ -1,7 +1,7 @@
-yii2-AutoComplete-widget
+yii2-Autocomplete-widget
 ============================
 
-The AutoComplete extension is a Yii 2 wrapper widget for for the [AutoComplete for jQuery plugin](https://github.com/devbridge/jQuery-Autocomplete).
+The Autocomplete extension is a Yii 2 wrapper widget for for the [Autocomplete for jQuery plugin](https://github.com/devbridge/jQuery-Autocomplete).
 AutoComplete allows you to easily create autocomplete/autosuggest boxes for text input fields.
 
 Has no dependencies other than jQuery.
