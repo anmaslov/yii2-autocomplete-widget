@@ -1,0 +1,28 @@
+{
+    "name": "anmaslov/yii2-autocomplete-widget",
+    "description": "Ajax AutoComplete widget for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii", "yii2", "yii 2", "extension", "widget", "jquery", "AutoComplete"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/anmaslov/yii2-autocomplete-widget/issues",
+        "source": "https://github.com/anmaslov/yii2-autocomplete-widget"
+    },
+    "authors": [
+        {
+            "name": "Maslov Alexey",
+            "email": "lelick29@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "bower-asset/devbridge-autocomplete" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "anmaslov\\autocomplete\\": "src"
+        }
+    }
+}
