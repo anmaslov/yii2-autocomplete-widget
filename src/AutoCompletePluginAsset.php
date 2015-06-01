@@ -15,19 +15,16 @@ use yii\web\AssetBundle;
  * @author Alexey Maslov <lelick29@gmail.com>
  */
 
-class AutoCompleteAsset extends AssetBundle
+class AutoCompletePluginAsset extends AssetBundle
 {
-    public $css = [
-        'autocomplete.css',
+    public $sourcePath = '@bower/devbridge-autocomplete';
+
+    public $js = [
+        'dist/jquery.autocomplete.min.js'
     ];
 
     public $depends = [
-        'anmaslov\autocomplete\AutoCompletePluginAsset',
+        'yii\web\JqueryAsset',
     ];
 
-    public function init()
-    {
-        $this->sourcePath = __DIR__ . '/assets';
-        parent::init();
-    }
 }
