@@ -7,9 +7,8 @@ php:
   - hhvm
 
 install:
-  - travis_retry composer self-update && composer --version
-  - travis_retry composer global require "fxp/composer-asset-plugin:~1.0.0"
   - composer self-update
+  - composer global require "fxp/composer-asset-plugin:1.0.0"
   - composer install
 
 before_script:
@@ -18,3 +17,7 @@ before_script:
 
 script:
   - phpunit --coverage-text --coverage-clover=coverage.clover
+
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
