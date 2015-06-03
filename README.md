@@ -1,5 +1,9 @@
-yii2-Autocomplete-widget
+Bootstrap Autocomplete widget for YII2
 ============================
+[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+[![Latest Version](https://img.shields.io/github/tag/anmaslov/yii2-autocomplete-widget.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-type-ahead-widget/tags)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
 
 The Autocomplete extension is a Yii2 wrapper widget for for the [Autocomplete for jQuery plugin](https://github.com/devbridge/jQuery-Autocomplete).
 AutoComplete allows you to easily create autocomplete/autosuggest boxes for text input fields.
@@ -33,7 +37,6 @@ Get data from model
 $data = Link::find()
             ->select('title as value')
             ->asArray()
-            ->limit(5)
             ->all();
 ```
 
