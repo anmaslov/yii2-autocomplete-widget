@@ -32,11 +32,11 @@ class AutoCompleteTest extends \PHPUnit_Framework_TestCase
             'dataFile' => '@tests/data/array_fixture.php',
         ]);
         $this->_fixture->load();
-        $this->autocomplete->data = $this->_fixture->data;
     }
 
     public function testExpectedInput()
     {
+        $this->autocomplete->data = $this->_fixture->data;
         $expectedHtml = "<div><input type=\"text\" id=\"autoId\" class=\"form-control\" name=\"auto\"></div>";
 
         ob_start();
@@ -49,6 +49,7 @@ class AutoCompleteTest extends \PHPUnit_Framework_TestCase
 
     public function testContainer()
     {
+        $this->autocomplete->data = $this->_fixture->data;
         $this->autocomplete->container = [
             'class' => 'form-control',
         ];
@@ -61,6 +62,12 @@ class AutoCompleteTest extends \PHPUnit_Framework_TestCase
         ob_end_clean();
 
         $this->assertEquals($expectedHtml, $actualHtml);
+    }
+
+    public function testNoData()
+    {
+        $this->setExpectedException('yii\base\InvalidConfigException');
+        $this->autocomplete->run();
     }
 
 
