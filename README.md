@@ -2,6 +2,7 @@ Bootstrap Autocomplete widget for YII2
 ============================
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
 [![Latest Version](https://img.shields.io/github/tag/anmaslov/yii2-autocomplete-widget.svg?style=flat-square&label=release)](https://github.com/anmaslov/yii2-autocomplete-widget/tags)
+[![Build Status](https://img.shields.io/travis/anmaslov/yii2-autocomplete-widget/master.svg?style=flat-square)](https://travis-ci.org/anmaslov/yii2-autocomplete-widget)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/mit-license.php)
 
 
