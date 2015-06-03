@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1433319691">
-  <project timestamp="1433319691">
+<coverage generated="1433329407">
+  <project timestamp="1433329407">
     <package name="anmaslov\autocomplete">
       <file name="W:\domains\autocomplete\vendor\anmaslov\yii2-autocomplete-widget\src/AutoComplete.php">
         <class name="AutoComplete" namespace="anmaslov\autocomplete">
