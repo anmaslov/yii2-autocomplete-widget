@@ -1,9 +1,8 @@
 Bootstrap Autocomplete widget for YII2
 ============================
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
-[![Latest Version](https://img.shields.io/github/tag/anmaslov/yii2-autocomplete-widget.svg?style=flat-square&label=release)](https://github.com/yii2-autocomplete-widget/tags)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/anmaslov/yii2-autocomplete-widget.svg?style=flat-square)](https://packagist.org/packages/yii2-autocomplete-widget)
+[![Latest Version](https://img.shields.io/github/tag/anmaslov/yii2-autocomplete-widget.svg?style=flat-square&label=release)](https://github.com/anmaslov/yii2-autocomplete-widget/tags)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/mit-license.php)
 
 
 The Autocomplete extension is a Yii2 wrapper widget for for the [Autocomplete for jQuery plugin](https://github.com/devbridge/jQuery-Autocomplete).
