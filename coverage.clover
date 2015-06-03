@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1433319691">
+  <project timestamp="1433319691">
+    <package name="anmaslov\autocomplete">
+      <file name="W:\domains\autocomplete\vendor\anmaslov\yii2-autocomplete-widget\src/AutoComplete.php">
+        <class name="AutoComplete" namespace="anmaslov\autocomplete">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="19" elements="23" coveredelements="21"/>
+        </class>
+        <line num="27" type="method" name="run" crap="3.07" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="37" type="method" name="init" crap="1" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="46" type="method" name="registerAssets" crap="4" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <metrics loc="63" ncloc="49" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="19" elements="23" coveredelements="21"/>
+      </file>
+      <file name="W:\domains\autocomplete\vendor\anmaslov\yii2-autocomplete-widget\src/AutoCompleteAsset.php">
+        <class name="AutoCompleteAsset" namespace="anmaslov\autocomplete">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="28" type="method" name="init" crap="1" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <metrics loc="32" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+      <file name="W:\domains\autocomplete\vendor\anmaslov\yii2-autocomplete-widget\src/AutoCompletePluginAsset.php">
+        <class name="AutoCompletePluginAsset" namespace="anmaslov\autocomplete">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="29" ncloc="19" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="3" loc="124" ncloc="90" classes="3" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="22" elements="27" coveredelements="25"/>
+  </project>
+</coverage>
