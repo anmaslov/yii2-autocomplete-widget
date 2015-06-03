@@ -49,7 +49,7 @@ class AutoComplete extends \yii\widgets\InputWidget
         AutoCompleteAsset::register($view);
         $id = $this->options['id'];
 
-        if (!$this->clientOptions['lookup']){
+        if (!isset($this->clientOptions['lookup'])){
             $this->clientOptions['lookup'] = array_values($this->data);
         }
 
