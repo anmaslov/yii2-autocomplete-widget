@@ -24,5 +24,10 @@
         "psr-4": {
             "anmaslov\\autocomplete\\": "src"
         }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }
