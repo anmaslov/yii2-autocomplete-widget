@@ -61,4 +61,3 @@ class AutoComplete extends \yii\widgets\InputWidget
         $view->registerJs(implode("\n", $js));
     }
 }
-?>
